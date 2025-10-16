@@ -14,21 +14,30 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
         android:text="@string/Boton1"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="16dp"
+
         tools:layout_editor_absoluteY="42dp" />
+
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#F44336"
         android:text="@string/Boton2"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="284dp"
         tools:layout_editor_absoluteY="42dp" />
 
