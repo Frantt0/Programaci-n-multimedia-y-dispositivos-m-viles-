@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">Tema3_ejercicio2</string>
-    <string name="Cancelar" />
+    <string name="Boton1"> Continuar </string>
+    <string name="Boton2"> Cancelar </string>
 </resources>
